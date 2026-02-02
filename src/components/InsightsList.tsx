@@ -25,7 +25,7 @@ export default function InsightsList({ username, insights, color }: InsightsList
       <div className="flex items-center gap-2 mb-4">
         <Lightbulb className={`w-5 h-5 ${colorClass}`} />
         <h3 className={`font-cyber text-sm ${colorClass}`}>
-          {username.toUpperCase()}'S INSIGHTS
+          {username.toUpperCase()}&apos;S INSIGHTS
         </h3>
       </div>
 

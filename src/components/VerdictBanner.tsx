@@ -62,7 +62,7 @@ export default function VerdictBanner({ verdict, user1, user2 }: VerdictBannerPr
             className="font-cyber text-3xl md:text-4xl mb-2"
           >
             {isTie ? (
-              <span className="text-cyber-accent glow-text">IT'S A TIE!</span>
+              <span className="text-cyber-accent glow-text">IT&apos;S A TIE!</span>
             ) : (
               <>
                 <span className="text-white">WINNER: </span>
@@ -176,7 +176,7 @@ export default function VerdictBanner({ verdict, user1, user2 }: VerdictBannerPr
           {/* User 1 Strengths */}
           <div className="text-center md:text-left">
             <p className="text-xs font-mono text-gray-500 mb-2">
-              {user1.username}'s Strengths
+              {user1.username}&apos;s Strengths
             </p>
             <div className="flex flex-wrap gap-2 justify-center md:justify-start">
               {verdict.user1Strengths.length > 0 ? (
@@ -194,7 +194,7 @@ export default function VerdictBanner({ verdict, user1, user2 }: VerdictBannerPr
           {/* User 2 Strengths */}
           <div className="text-center md:text-right">
             <p className="text-xs font-mono text-gray-500 mb-2">
-              {user2.username}'s Strengths
+              {user2.username}&apos;s Strengths
             </p>
             <div className="flex flex-wrap gap-2 justify-center md:justify-end">
               {verdict.user2Strengths.length > 0 ? (
