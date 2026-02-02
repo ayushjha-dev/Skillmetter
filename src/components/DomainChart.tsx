@@ -52,8 +52,8 @@ export default function DomainChart({ user1, user2 }: DomainChartProps) {
       color: CYBER_DOMAIN_COLORS[domain],
     }))
     .sort((a, b) => {
-      const totalA = a[user1.username] + a[user2.username];
-      const totalB = b[user1.username] + b[user2.username];
+      const totalA = Number(a[user1.username]) + Number(a[user2.username]);
+      const totalB = Number(b[user1.username]) + Number(b[user2.username]);
       return totalB - totalA;
     });
 
