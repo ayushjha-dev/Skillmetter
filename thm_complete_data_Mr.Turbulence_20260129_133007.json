@@ -1,0 +1,559 @@
+{
+  "username": "Mr.Turbulence",
+  "user_id": "6670149dd0f97e09a84e9103",
+  "collection_timestamp": "2026-01-29T13:29:51.311452",
+  "endpoints": {
+    "Public Profile": {
+      "name": "Public Profile",
+      "url": "https://tryhackme.com/api/v2/public-profile?username=Mr.Turbulence",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:51.365447",
+      "success": true,
+      "data": {
+        "status": "success",
+        "data": {
+          "_id": "6670149dd0f97e09a84e9103",
+          "id": 3198213,
+          "avatar": "https://secure.gravatar.com/avatar/82ef60ccff9cf0ac9d7d28eb10f2629e.jpg?s=200&d=robohash&r=x",
+          "username": "Mr.Turbulence",
+          "level": 1,
+          "country": "in",
+          "about": "",
+          "linkedInUsername": "",
+          "githubUsername": "",
+          "twitterUsername": "",
+          "instagramUsername": "",
+          "personalWebsite": "",
+          "redditUsername": "",
+          "discordUsername": "",
+          "calendlyUrl": "",
+          "subscribed": 0,
+          "badgesNumber": 1,
+          "dateSignUp": "2024-06-17T10:49:01.732Z",
+          "certificateType": null,
+          "completedRoomsNumber": 4,
+          "streak": 0,
+          "rank": 1608500,
+          "topPercentage": 79,
+          "isInTopTenPercent": false,
+          "badgeImageURL": "https://tryhackme-badges.s3.amazonaws.com/Mr.Turbulence.png",
+          "userRole": "student"
+        }
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 697,
+        "response_time": 1.191204
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 2,
+        "keys": [
+          "status",
+          "data"
+        ],
+        "structure": {
+          "status": {
+            "type": "str",
+            "size": 7
+          },
+          "data": {
+            "type": "dict",
+            "size": 26
+          }
+        }
+      }
+    },
+    "User Badges": {
+      "name": "User Badges",
+      "url": "https://tryhackme.com/api/v2/users/badges?username=Mr.Turbulence",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:53.157934",
+      "success": true,
+      "data": {
+        "status": "success",
+        "data": [
+          {
+            "name": "first-4-rooms",
+            "_id": "6671c09a660ce8c911807860",
+            "image": "9627ce5ce08c4e662a0ef8088d354959.png"
+          }
+        ]
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 134,
+        "response_time": 0.428023
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 2,
+        "keys": [
+          "status",
+          "data"
+        ],
+        "structure": {
+          "status": {
+            "type": "str",
+            "size": 7
+          },
+          "data": {
+            "type": "list",
+            "size": 1
+          }
+        }
+      }
+    },
+    "Completed Rooms (Page 1)": {
+      "name": "Completed Rooms (Page 1)",
+      "url": "https://tryhackme.com/api/v2/public-profile/completed-rooms?user=6670149dd0f97e09a84e9103&limit=16&page=1",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:54.188000",
+      "success": true,
+      "data": {
+        "status": "success",
+        "data": {
+          "docs": [
+            {
+              "_id": "6226a23a0cde4b0054f256c6",
+              "title": "Offensive Security Intro",
+              "code": "offensivesecurityintro",
+              "description": "Hack your first website (legally in a safe environment) and experience an ethical hacker's job.",
+              "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image1.png",
+              "difficulty": "easy",
+              "freeToUse": true,
+              "type": "walkthrough"
+            },
+            {
+              "_id": "624ee2179653750048ac4902",
+              "title": "Defensive Security Intro",
+              "code": "defensivesecurityintro",
+              "description": "Introducing defensive security and related topics, such as Threat Intelligence, SOC, DFIR, Malware Analysis, and SIEM.",
+              "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image2.png",
+              "difficulty": "easy",
+              "freeToUse": true,
+              "type": "walkthrough"
+            },
+            {
+              "_id": "626a44aa3a0b75005d415ece",
+              "title": "Careers in Cyber",
+              "code": "careersincyber",
+              "description": "Learn about the different careers in cyber security.",
+              "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/presec-room-image3.png",
+              "difficulty": "info",
+              "freeToUse": true,
+              "type": "walkthrough"
+            },
+            {
+              "_id": "60e747cc7618cb005368a58d",
+              "title": "Pentesting Fundamentals",
+              "code": "pentestingfundamentals",
+              "description": "Learn the important ethics and methodologies behind every pentest.",
+              "imageURL": "https://tryhackme-images.s3.amazonaws.com/room-icons/66704dd0e54a1f39bff7b1a1-1735574298438",
+              "difficulty": "easy",
+              "freeToUse": true,
+              "type": "walkthrough"
+            }
+          ],
+          "totalDocs": 4,
+          "limit": 16,
+          "page": 1,
+          "totalPages": 1,
+          "pagingCounter": 1,
+          "hasPrevPage": false,
+          "hasNextPage": false,
+          "prevPage": null,
+          "nextPage": null
+        }
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 1571,
+        "response_time": 0.375539
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 2,
+        "keys": [
+          "status",
+          "data"
+        ],
+        "structure": {
+          "status": {
+            "type": "str",
+            "size": 7
+          },
+          "data": {
+            "type": "dict",
+            "size": 10
+          }
+        }
+      }
+    },
+    "All Completed Rooms": {
+      "success": true,
+      "data": [
+        "docs",
+        "totalDocs",
+        "limit",
+        "page",
+        "totalPages",
+        "pagingCounter",
+        "hasPrevPage",
+        "hasNextPage",
+        "prevPage",
+        "nextPage"
+      ],
+      "total_rooms": 10
+    },
+    "CSRF Token": {
+      "name": "CSRF Token",
+      "url": "https://tryhackme.com/api/v2/auth/csrf",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:56.223644",
+      "success": true,
+      "data": {
+        "status": "success",
+        "data": {
+          "token": "JGvfed4g-ErUEwSYeOlAZ2T8XbyrvCggcqUI"
+        }
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 76,
+        "response_time": 0.435784
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 2,
+        "keys": [
+          "status",
+          "data"
+        ],
+        "structure": {
+          "status": {
+            "type": "str",
+            "size": 7
+          },
+          "data": {
+            "type": "dict",
+            "size": 1
+          }
+        }
+      }
+    },
+    "Sales Data": {
+      "name": "Sales Data",
+      "url": "https://tryhackme.com/api/v2/sales",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:57.315055",
+      "success": true,
+      "data": {
+        "status": "success",
+        "data": null
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 32,
+        "response_time": 0.463997
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 2,
+        "keys": [
+          "status",
+          "data"
+        ],
+        "structure": {
+          "status": {
+            "type": "str",
+            "size": 7
+          },
+          "data": {
+            "type": "NoneType",
+            "size": null
+          }
+        }
+      }
+    },
+    "Users Country": {
+      "name": "Users Country",
+      "url": "https://tryhackme.com/api/v2/users/country",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:58.404959",
+      "success": true,
+      "data": {
+        "status": "success",
+        "data": {
+          "countryCode": "in"
+        }
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 48,
+        "response_time": 0.401036
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 2,
+        "keys": [
+          "status",
+          "data"
+        ],
+        "structure": {
+          "status": {
+            "type": "str",
+            "size": 7
+          },
+          "data": {
+            "type": "dict",
+            "size": 1
+          }
+        }
+      }
+    },
+    "Client Insights": {
+      "name": "Client Insights",
+      "url": "https://tryhackme.com/api/v2/client-insights",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:29:59.403726",
+      "success": true,
+      "data": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <!-- Always hardcoded tags -->\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <link rel=\"icon\" type=\"image/png\" href=\"/favicon-96x96.png\" sizes=\"96x96\" />\n  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n  <link rel=\"shortcut icon\" href=\"/favicon.ico\" />\n  <link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\" />\n  <meta name=\"apple-mobile-web-app-title\" content=\"TryHackMe\" />\n  <!--\n    manifest.json provides metadata used when your web app is installed on a\n    user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n  -->\n  <link rel=\"manifest\" href=\"/manifest.json\" />\n  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n  <link\n    href=\"https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap\"\n    rel=\"stylesheet\" />\n  <link\n    href=\"https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap\"\n    rel=\"stylesheet\" />\n  <link href=\"https://fonts.googleapis.com/css2?family=Bungee&display=swap\" rel=\"stylesheet\" />\n  <script src=\"https://kit.fontawesome.com/b1f646e336.js\" crossorigin=\"anonymous\"></script>\n  <!--\n    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n    Open Graph, Twitter Card, JSON LD, and other meta tags are added by Cloudflare Worker middleware.\n    This includes dynamic meta tags based on the URL e.g. for room pages.\n    The worker will also replace the title tag with the correct title.\n    See https://github.com/tryhackme/cloudflare-workers/tree/master/middleware\n    Please do not add such tags here without middleware changes, as this will break the middleware.\n    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n  -->\n  <title>TryHackMe | Cyber Security Training</title>\n  <!-- This will be replaced by the worker (see above) -->\n  <style>\n    @media (prefers-color-scheme: dark) {\n      html, body {\n        background-color: #151c2b;\n      }\n    }\n    @media (prefers-color-scheme: light) {\n      html, body {\n        background-color: #f9f9fb;\n      }\n    }\n  </style>\n  <script>\n   \n    (function() {\n      // Pages that should always be dark regardless of user theme preference\n      const forcedDarkThemePages = [\n        '/soc-sim',\n        '/business',\n        '/honeynet-collapse',\n        '/hack2win',\n        '/christmas-2023',\n        '/christmas-2024',\n        '/adventofcyber25',\n        '/certifications',\n        '/certification',\n        '/tabletop-exercises',\n        '/client',\n        '/threat-hunting',\n        '/badr',\n        '/sim-welcome',\n        '/dashboard/modules',\n        '/ctf-builder',\n        '/jr-penetration-tester',\n        '/hacktivities'\n      ];\n      const currentPath = window.location.pathname;\n      const isForcedDarkTheme = forcedDarkThemePages.some(function(page) {\n        return currentPath === page || currentPath.startsWith(page + '/');\n      });\n\n      let bgColor;\n      if (isForcedDarkTheme) {\n        // Always use dark background for forced dark theme pages\n        bgColor = '#151c2b';\n      } else {\n        let cachedTheme = '';\n        try {\n          cachedTheme = (localStorage.getItem('cachedTheme') || '').trim();\n        } catch {\n          // localStorage unavailable\n        }\n\n        if (cachedTheme === 'light') {\n          bgColor = '#f9f9fb';\n        } else if (cachedTheme === 'dark') {\n          bgColor = '#151c2b';\n        } else {\n          const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;\n          bgColor = prefersDark ? '#151c2b' : '#f9f9fb';\n        }\n      }\n\n      const style = document.createElement('style');\n      style.setAttribute('data-theme-loader', 'true');\n      style.textContent = 'html, body { background-color: ' + bgColor + ' !important; } #app-loader { background-color: ' + bgColor + ' !important; }';\n      document.head.insertBefore(style, document.head.firstChild);\n    })();\n  </script>\n  <!-- External scripts -->\n  <script type=\"text/javascript\">\n    (function () {\n      var w = window;\n      var ic = w.Intercom;\n      if (typeof ic === 'function') {\n        ic('reattach_activator');\n        ic('update', w.intercomSettings);\n      } else {\n        var d = document;\n        var i = function () {\n          i.c(arguments);\n        };\n        i.q = [];\n        i.c = function (args) {\n          i.q.push(args);\n        };\n        w.Intercom = i;\n        var l = function () {\n          setTimeout(function () {\n            var s = d.createElement('script');\n            s.type = 'text/javascript';\n            s.async = true;\n            s.src = '",
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "text/html",
+        "content_length": 66924,
+        "response_time": 0.822485
+      },
+      "data_type": "text"
+    },
+    "Analytics Page View": {
+      "name": "Analytics Page View",
+      "url": "https://tryhackme.com/api/v2/analytics/anonymous-page-view",
+      "method": "POST",
+      "timestamp": "2026-01-29T13:30:01.250430",
+      "success": false,
+      "data": null,
+      "error": "Forbidden (403)",
+      "metadata": {
+        "status_code": 403,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 75,
+        "response_time": 0.727777
+      }
+    },
+    "Segment CDN Settings": {
+      "name": "Segment CDN Settings",
+      "url": "https://cdn.segment.com/v1/projects/pZBaZ2QfuFOh7fkyT6Pb0K92LsRIqGgP/settings",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:30:02.582171",
+      "success": true,
+      "data": {
+        "_lastModified": "2026-01-28T10:30:36.850Z",
+        "integrations": {
+          "Actions Amplitude": {
+            "versionSettings": {
+              "componentTypes": []
+            }
+          },
+          "Actions Customerio": {
+            "versionSettings": {
+              "componentTypes": []
+            }
+          },
+          "Impact Partnership Cloud": {
+            "versionSettings": {
+              "componentTypes": []
+            }
+          },
+          "Segment.io": {
+            "apiKey": "pZBaZ2QfuFOh7fkyT6Pb0K92LsRIqGgP",
+            "unbundledIntegrations": [],
+            "addBundledMetadata": true,
+            "maybeBundledConfigIds": {},
+            "versionSettings": {
+              "version": "4.4.7",
+              "componentTypes": [
+                "browser"
+              ]
+            },
+            "apiHost": "api.segment.io/v1"
+          }
+        },
+        "plan": {
+          "track": {
+            "__default": {
+              "enabled": true,
+              "integrations": {}
+            }
+          },
+          "identify": {
+            "__default": {
+              "enabled": true
+            }
+          },
+          "group": {
+            "__default": {
+              "enabled": true
+            }
+          }
+        },
+        "edgeFunction": {},
+        "analyticsNextEnabled": true,
+        "middlewareSettings": {},
+        "enabledMiddleware": {},
+        "metrics": {
+          "sampleRate": 0.1,
+          "host": "api.segment.io/v1"
+        },
+        "legacyVideoPluginsEnabled": false,
+        "remotePlugins": [
+          {
+            "name": "Actions Amplitude",
+            "creationName": "Actions Amplitude",
+            "libraryName": "amplitude-pluginsDestination",
+            "url": "https://cdn.segment.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
+            "settings": {
+              "versionSettings": {
+                "componentTypes": []
+              },
+              "subscriptions": [
+                {
+                  "id": "qCCCRbZtUXdc2mcVj1LVgE",
+                  "name": "Browser Session Tracking",
+                  "enabled": true,
+                  "partnerAction": "sessionId",
+                  "subscribe": "type = \"track\" or type = \"identify\" or type = \"group\" or type = \"page\" or type = \"alias\"",
+                  "mapping": {}
+                }
+              ]
+            }
+          }
+        ],
+        "autoInstrumentationSettings": {
+          "disableTraffic": false,
+          "sampleRate": 0
+        }
+      },
+      "error": null,
+      "metadata": {
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "content_length": 1424,
+        "response_time": 0.498418
+      },
+      "data_analysis": {
+        "type": "dict",
+        "size": 11,
+        "keys": [
+          "_lastModified",
+          "integrations",
+          "plan",
+          "edgeFunction",
+          "analyticsNextEnabled",
+          "middlewareSettings",
+          "enabledMiddleware",
+          "metrics",
+          "legacyVideoPluginsEnabled",
+          "remotePlugins",
+          "autoInstrumentationSettings"
+        ],
+        "structure": {
+          "_lastModified": {
+            "type": "str",
+            "size": 24
+          },
+          "integrations": {
+            "type": "dict",
+            "size": 4
+          },
+          "plan": {
+            "type": "dict",
+            "size": 3
+          },
+          "edgeFunction": {
+            "type": "dict",
+            "size": 0
+          },
+          "analyticsNextEnabled": {
+            "type": "bool",
+            "size": null
+          },
+          "middlewareSettings": {
+            "type": "dict",
+            "size": 0
+          },
+          "enabledMiddleware": {
+            "type": "dict",
+            "size": 0
+          },
+          "metrics": {
+            "type": "dict",
+            "size": 2
+          },
+          "legacyVideoPluginsEnabled": {
+            "type": "bool",
+            "size": null
+          },
+          "remotePlugins": {
+            "type": "list",
+            "size": 1
+          },
+          "autoInstrumentationSettings": {
+            "type": "dict",
+            "size": 2
+          }
+        }
+      }
+    },
+    "Intercom Launcher Settings": {
+      "name": "Intercom Launcher Settings",
+      "url": "https://api-iam.intercom.io/messenger/web/launcher_settings",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:30:03.733456",
+      "success": false,
+      "data": null,
+      "error": "Not Found (404)",
+      "metadata": {
+        "status_code": 404,
+        "content_type": "application/json; charset=UTF-8",
+        "content_length": 199,
+        "response_time": 2.544837
+      }
+    },
+    "Intercom Ping": {
+      "name": "Intercom Ping",
+      "url": "https://api-iam.intercom.io/messenger/web/ping",
+      "method": "GET",
+      "timestamp": "2026-01-29T13:30:07.172740",
+      "success": false,
+      "data": null,
+      "error": "Not Found (404)",
+      "metadata": {
+        "status_code": 404,
+        "content_type": "application/json; charset=UTF-8",
+        "content_length": 199,
+        "response_time": 0.422653
+      }
+    }
+  },
+  "summary": {
+    "total_endpoints": 11,
+    "successful": 8,
+    "failed": 3,
+    "skipped": 0
+  }
+}
